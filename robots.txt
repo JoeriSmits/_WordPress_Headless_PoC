@@ -1,0 +1,9 @@
+Sitemap: http://wp-test.local/sitemap.xml
+
+# START YOAST BLOCK
+# ---------------------------
+User-agent: *
+Disallow:
+
+# ---------------------------
+# END YOAST BLOCK
