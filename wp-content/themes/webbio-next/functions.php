@@ -1,9 +1,42 @@
+
+
+
 <?php
 /**
  * Registers new menus
  *
  * @return void
  */
+add_action('graphql_register_types', function() {
+  register_graphql_field('RootQuery', 'onderwerpBySlug', [
+      'type' => 'Onderwerp',
+      'args' => [
+          'slug' => [
+              'type' => 'String',
+              'description' => 'The slug in pageInformation to filter the Onderwerp post type',
+          ],
+      ],
+      'resolve' => function($source, $args, $context, $info) {
+          if (!isset($args['slug'])) {
+              return null;
+          }
+
+          $query = new WP_Query([
+              'post_type' => 'onderwerp',
+              'meta_query' => [
+                  [
+                      'key' => 'pageInformation_slug',
+                      'value' => $args['slug'],
+                      'compare' => '='
+                  ]
+              ]
+          ]);
+
+          return $query->posts ? $query->posts[0] : null;
+      },
+  ]);
+});
+ 
 add_action('init', 'register_new_menu');
 function register_new_menu()
 {

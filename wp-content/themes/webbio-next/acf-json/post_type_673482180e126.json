@@ -4,7 +4,7 @@
     "menu_order": 0,
     "active": true,
     "post_type": "subthema",
-    "advanced_configuration": false,
+    "advanced_configuration": true,
     "import_source": "",
     "import_date": "",
     "labels": {
@@ -85,6 +85,8 @@
     "delete_with_user": false,
     "register_meta_box_cb": "",
     "enter_title_here": "",
-    "show_in_graphql": 0,
-    "modified": 1731494435
+    "show_in_graphql": 1,
+    "graphql_single_name": "subthema",
+    "graphql_plural_name": "subthema_s",
+    "modified": 1731507243
 }
