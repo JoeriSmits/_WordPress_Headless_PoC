@@ -1,9 +1,25 @@
 ### Readme
 
+## Opstarten project
+
+Om het WordPress-project op te starten, kun je gebruik maken van de tool Local (https://localwp.com/). Het bestand dat je nodig hebt om het project te importeren, bevindt zich in de rootmap van het project en heeft de naam wp-test.zip. Wanneer je dit bestand direct importeert in Local, kun je het project meteen opstarten. Je hebt vervolgens toegang tot de code via VSCode (of een andere code-editor naar keuze).
+
+Zorg ervoor dat je de geïmporteerde map verwijst naar deze repository. De bestanden zouden dan direct synchroon moeten lopen, zodat je geen tijd kwijt bent aan het handmatig instellen van de projectbestanden.
+
+Een belangrijk voordeel van deze werkwijze is dat de benodigde data automatisch wordt meegenomen uit de database, zodat je niet opnieuw alle gegevens hoeft in te vullen of configureren. Dit bespaart tijd en zorgt ervoor dat je meteen kunt werken met de juiste data.
+
+De inloggegevens voor het project zijn:
+
+Gebruiker: user
+Wachtwoord: user
+
+## Voortvang CMS PoC
+
 | CMS                       | WordPress | Geimplementeerd |
 |---------------------------|-----------|-----------------|
 | Verschillende Content Types| ✅        | ✅              |
 | Slug generation            | ✅        | ❌              |
+| Parent Child relationsihip | ✅        | ✅              |
 | Categories & Tags          | ✅        | ✅              |
 | Versiebeheer               | ✅        | ✅              |
 | Preview                    | ✅        | ❌              |
