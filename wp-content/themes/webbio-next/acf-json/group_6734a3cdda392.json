@@ -4,8 +4,102 @@
     "fields": [
         {
             "key": "field_6734a3cecd364",
-            "label": "Beschrijving",
+            "label": "Introtext",
             "name": "beschrijving",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "allow_in_bindings": 1,
+            "rows": "",
+            "placeholder": "",
+            "new_lines": "",
+            "show_in_graphql": 1,
+            "graphql_description": "",
+            "graphql_field_name": "beschrijving",
+            "graphql_non_null": 0
+        },
+        {
+            "key": "field_6735e5a6cd916",
+            "label": "Afbeelding",
+            "name": "afbeelding",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "allow_in_bindings": 0,
+            "preview_size": "medium",
+            "show_in_graphql": 1,
+            "graphql_description": "",
+            "graphql_field_name": "afbeelding"
+        },
+        {
+            "key": "field_6735e5b9cd917",
+            "label": "Categorie",
+            "name": "categorie",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Aankopen & Garantie": "Aankopen & Garantie",
+                "Afspraken & Problemen werk": "Afspraken & Problemen werk",
+                "Algemene voorbeeldbrieven": "Algemene voorbeeldbrieven",
+                "Familie & Relatie": "Familie & Relatie",
+                "Huurwoning": "Huurwoning",
+                "Loon & Vergoeding werk": "Loon & Vergoeding werk",
+                "Politie & Justitie": "Politie & Justitie",
+                "Schade": "Schade",
+                "Schulden & Incasso": "Schulden & Incasso",
+                "Werk & Inkomen": "Werk & Inkomen",
+                "Ziekte & Verlof": "Ziekte & Verlof"
+            },
+            "default_value": false,
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "allow_in_bindings": 0,
+            "ui": 0,
+            "show_in_graphql": 1,
+            "graphql_description": "",
+            "graphql_field_name": "categorie",
+            "graphql_non_null": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_6735e6645d72a",
+            "label": "Informatie",
+            "name": "informatie",
             "aria-label": "",
             "type": "wysiwyg",
             "instructions": "",
@@ -24,8 +118,315 @@
             "delay": 0,
             "show_in_graphql": 1,
             "graphql_description": "",
-            "graphql_field_name": "beschrijving",
+            "graphql_field_name": "informatie",
             "graphql_non_null": 0
+        },
+        {
+            "key": "field_6735e67cd6b00",
+            "label": "Inhoud van de brief",
+            "name": "inhoud_van_de_brief",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": false,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "new_lines": "",
+            "maxlength": "",
+            "placeholder": "",
+            "rows": ""
+        },
+        {
+            "key": "field_6735e7c4bb52f",
+            "label": "Download button tekst",
+            "name": "download_button_tekst",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "allow_in_bindings": 0,
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "show_in_graphql": 1,
+            "graphql_description": "",
+            "graphql_field_name": "downloadButtonTekst",
+            "graphql_non_null": 0
+        },
+        {
+            "key": "field_6735e83f388f0",
+            "label": "Schakel label uit: 'Aantekenen \/ Per gewone post' uit",
+            "name": "schakel_label_uit:_aantekenen__per_gewone_post_uit",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "allow_in_bindings": 0,
+            "ui": 0,
+            "show_in_graphql": 1,
+            "graphql_description": "",
+            "graphql_field_name": "schakelLabelUitAantekenenPerGewonePostUit",
+            "graphql_non_null": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_6735e85df72f7",
+            "label": "Downloadbaar bestand",
+            "name": "downloadbaar_bestand",
+            "aria-label": "",
+            "type": "file",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": "",
+            "allow_in_bindings": 1,
+            "show_in_graphql": 1,
+            "graphql_description": "",
+            "graphql_field_name": "downloadbaarBestand"
+        },
+        {
+            "key": "field_6735e89dae40a",
+            "label": "Inhoud voor het mailen van de brief",
+            "name": "inhoud_voor_het_mailen_van_de_brief",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "show_in_graphql": 1,
+            "graphql_description": "",
+            "graphql_field_name": "inhoudVoorHetMailenVanDeBrief",
+            "graphql_non_null": 0,
+            "sub_fields": [
+                {
+                    "key": "field_6735ea984751b",
+                    "label": "Onderwerp",
+                    "name": "onderwerp",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "show_in_graphql": 1,
+                    "graphql_description": "",
+                    "graphql_field_name": "onderwerp",
+                    "graphql_non_null": 0
+                },
+                {
+                    "key": "field_6735eaa34751c",
+                    "label": "Inhoud",
+                    "name": "inhoud",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "rows": "",
+                    "placeholder": "",
+                    "new_lines": "",
+                    "show_in_graphql": 1,
+                    "graphql_description": "",
+                    "graphql_field_name": "inhoud",
+                    "graphql_non_null": 0
+                },
+                {
+                    "key": "field_6735eaa94751d",
+                    "label": "Tekst op de knop",
+                    "name": "tekst_op_de_knop",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "show_in_graphql": 1,
+                    "graphql_description": "",
+                    "graphql_field_name": "tekstOpDeKnop",
+                    "graphql_non_null": 0
+                }
+            ]
+        },
+        {
+            "key": "field_6735ea8b4751a",
+            "label": "Andere voorbeeldbrieven",
+            "name": "andere_voorbeeldbrieven",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "show_in_graphql": 1,
+            "graphql_description": "",
+            "graphql_field_name": "andereVoorbeeldbrieven",
+            "graphql_non_null": 0,
+            "sub_fields": [
+                {
+                    "key": "field_6735eac34751e",
+                    "label": "Titel",
+                    "name": "titel",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "show_in_graphql": 1,
+                    "graphql_description": "",
+                    "graphql_field_name": "titel",
+                    "graphql_non_null": 0
+                },
+                {
+                    "key": "field_6735eac74751f",
+                    "label": "Variant",
+                    "name": "variant",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Big": "Big",
+                        "Small": "Small"
+                    },
+                    "default_value": false,
+                    "return_format": "value",
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "allow_in_bindings": 0,
+                    "ui": 0,
+                    "show_in_graphql": 1,
+                    "graphql_description": "",
+                    "graphql_field_name": "variant",
+                    "graphql_non_null": 0,
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_6735ead947520",
+                    "label": "Voorbeeldbrieven",
+                    "name": "voorbeeldbrieven_",
+                    "aria-label": "",
+                    "type": "relationship",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "post_type": [
+                        "voorbeeldbrief"
+                    ],
+                    "post_status": [
+                        "publish"
+                    ],
+                    "taxonomy": "",
+                    "filters": [
+                        "search",
+                        "post_type",
+                        "taxonomy"
+                    ],
+                    "return_format": "object",
+                    "min": "",
+                    "max": "",
+                    "allow_in_bindings": 0,
+                    "elements": "",
+                    "bidirectional": 0,
+                    "show_in_graphql": 1,
+                    "graphql_description": "",
+                    "graphql_field_name": "voorbeeldbrieven",
+                    "graphql_connection_type": "one_to_many",
+                    "bidirectional_target": []
+                }
+            ]
         }
     ],
     "location": [
@@ -50,5 +451,5 @@
     "graphql_field_name": "voorbeeldbrief",
     "map_graphql_types_from_location_rules": 0,
     "graphql_types": "",
-    "modified": 1731503075
+    "modified": 1731587426
 }

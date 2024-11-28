@@ -51,6 +51,34 @@
             "graphql_description": "",
             "graphql_field_name": "beschrijving",
             "graphql_non_null": 0
+        },
+        {
+            "key": "field_6735db7498cf8",
+            "label": "Onderwerp",
+            "name": "onderwerp",
+            "aria-label": "",
+            "type": "page_link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "onderwerp"
+            ],
+            "post_status": "",
+            "taxonomy": "",
+            "allow_archives": 1,
+            "multiple": 0,
+            "allow_null": 0,
+            "allow_in_bindings": 0,
+            "show_in_graphql": 1,
+            "graphql_description": "",
+            "graphql_field_name": "onderwerp",
+            "graphql_connection_type": "one_to_many"
         }
     ],
     "location": [
@@ -75,5 +103,5 @@
     "graphql_field_name": "subthema",
     "map_graphql_types_from_location_rules": 0,
     "graphql_types": "",
-    "modified": 1731502887
+    "modified": 1731582968
 }
